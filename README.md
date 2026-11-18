@@ -9,7 +9,8 @@ Built on [0xFloyd/Portfolio_2020](https://github.com/0xFloyd/Portfolio_2020) (MI
 - **Projects**: CrowdDekho, College Management System (live on Vercel), FORM FITNESS, Capstone Project
 - **Skills**: Python, C/C++, SQL, ML libraries (Scikit-learn, TensorFlow, NumPy, Pandas), Git and more
 - **Timeline**: education, hackathons (VEXORA'26, Smart India Hackathon 2025) and certifications
-- **Links**: GitHub, LinkedIn, Email, Base44 projects
+- **Base44 apps**: MOVIExMANAICS, RoomieSplit, ScholarPulse, SpaceScope (billboards south of the start point)
+- **Links**: GitHub, LinkedIn, Email
 
 ## Run locally
 
@@ -21,7 +22,7 @@ npm run build    # production bundle in /build
 
 ## Customising
 
-Links live in `src/resources/textures.js` (`URL.linkedin` and `URL.base44` still need your exact URLs). Billboard and text images are in `src/jsm/`.
+Links live in `src/resources/textures.js` (`URL.linkedin` still needs your exact profile URL). Billboard and text images are in `src/jsm/`.
 
 ## License
 

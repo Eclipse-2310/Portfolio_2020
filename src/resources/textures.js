@@ -4,6 +4,10 @@ billboardTextures.crowdDekhoTexture = '../src/jsm/bb-crowddekho.png';
 billboardTextures.cmsTexture = '../src/jsm/bb-cms.png';
 billboardTextures.formFitnessTexture = '../src/jsm/bb-formfitness.png';
 billboardTextures.capstoneTexture = '../src/jsm/bb-capstone.png';
+billboardTextures.b44Movie = '../src/jsm/bb-b44-movie.png';
+billboardTextures.b44Roomie = '../src/jsm/bb-b44-roomie.png';
+billboardTextures.b44Scholar = '../src/jsm/bb-b44-scholar.png';
+billboardTextures.b44Space = '../src/jsm/bb-b44-space.png';
 
 //box textures
 let boxTexture = {};
@@ -18,7 +22,6 @@ boxTexture.lensFlareMain = '../src/jsm/lensflare0.png';
 boxTexture.skrillex = '../src/jsm/skrillex.png';
 boxTexture.edmText = '../src/jsm/EDM.png';
 boxTexture.writing = '../src/jsm/writing.png';
-boxTexture.base44 = '../src/jsm/base44.png';
 boxTexture.skills = '../src/jsm/skills.png';
 
 //material textures
@@ -48,7 +51,9 @@ URL.gitHub = 'https://github.com/Eclipse-2310';
 // TODO: replace with your exact LinkedIn profile URL (linkedin.com/in/<handle>)
 URL.linkedin = 'https://www.linkedin.com/';
 URL.email = 'mailto:rehanshaikh232007@gmail.com';
-// TODO: replace with your Base44 apps / profile URL
-URL.base44 = 'https://base44.com/';
+URL.b44Movie = 'https://app-b30f13e2-66c0-4b62-a331-2ec79f0d8047.base44.app';
+URL.b44Roomie = 'https://roomie-split-b17eb216.base44.app';
+URL.b44Scholar = 'https://smart-rich-study-sync.base44.app';
+URL.b44Space = 'https://space-scope-c87eb992.base44.app';
 
 export { billboardTextures, boxTexture, inputText, URL, stoneTexture, woodTexture };

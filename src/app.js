@@ -863,6 +863,11 @@ Ammo().then((Ammo) => {
 
     createBillboard(-70, 2.5, -22, billboardTextures.capstoneTexture, URL.capstone, 0);
 
+    createBillboard(-52, 2.5, 72, billboardTextures.b44Movie, URL.b44Movie, 0);
+    createBillboard(-17, 2.5, 72, billboardTextures.b44Roomie, URL.b44Roomie, 0);
+    createBillboard(18, 2.5, 72, billboardTextures.b44Scholar, URL.b44Scholar, 0);
+    createBillboard(53, 2.5, 72, billboardTextures.b44Space, URL.b44Space, 0);
+
     floydWords(16.2, 1, -20);
     createTextOnPlane(-70, 0.01, -48, inputText.crowdDekhoText, 20, 40);
     createTextOnPlane(-42, 0.01, -53, inputText.cmsText, 20, 40);
@@ -912,14 +917,12 @@ Ammo().then((Ammo) => {
     //   false
     // );
 
-    createBox(35, 2, -70, 4, 4, 1, boxTexture.base44, URL.base44, 0x000000, true);
 
     // floatingLabel(3.875, 4.5, -70, 'Twitter');
     floatingLabel(11.875, 4.5, -70, 'Github');
     floatingLabel(19.125, 4.5, -70, 'LinkedIn');
     floatingLabel(26.875, 4.5, -70, 'Email');
     // floatingLabel(35, 6.5, -70, '  Static \nWebsite');
-    floatingLabel(35, 6.5, -70, '  Base44 \nProjects');
     // floatingLabel(44, 6.5, -70, '   How I \nmade this');
 
     // allSkillsSection(-50, 0.025, 20, 40, 40, boxTexture.allSkills);
@@ -948,6 +951,7 @@ Ammo().then((Ammo) => {
     simpleText(-42, 0.01, -30, 'PROJECTS', 3);
     simpleText(61, 0.01, -15, 'TIMELINE', 3);
     simpleText(-35, 0.01, -2, 'SKILLS', 3);
+    simpleText(18, 0.01, 52, 'BASE44 APPS', 3);
 
     wallOfBricks();
     createTriangle(63, -55);
