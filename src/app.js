@@ -307,7 +307,7 @@ Ammo().then((Ammo) => {
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry('0xFloyd', {
+      var geometry = new THREE.TextGeometry('Rehan', {
         font: font,
         size: 3,
         height: 0.5,
@@ -351,7 +351,7 @@ Ammo().then((Ammo) => {
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry('SOFTWARE ENGINEER', {
+      var geometry = new THREE.TextGeometry('AI/ML STUDENT', {
         font: font,
         size: 1.5,
         height: 0.5,
@@ -855,16 +855,19 @@ Ammo().then((Ammo) => {
     createWallZ(0, 1.75, 87.5);
     createWallZ(0, 1.75, -87.5);
 
-    createBillboard(-80, 2.5, -70, billboardTextures.terpSolutionsTexture, URL.terpsolutions, Math.PI * 0.22);
+    createBillboard(-80, 2.5, -70, billboardTextures.crowdDekhoTexture, URL.crowdDekho, Math.PI * 0.22);
 
-    createBillboard(-45, 2.5, -78, billboardTextures.bagHolderBetsTexture, URL.githubBagholder, Math.PI * 0.17);
+    createBillboard(-45, 2.5, -78, billboardTextures.cmsTexture, URL.cms, Math.PI * 0.17);
 
-    createBillboardRotated(-17, 1.25, -75, billboardTextures.homeSweetHomeTexture, URL.githubHomeSweetHome, Math.PI * 0.15);
+    createBillboardRotated(-17, 1.25, -75, billboardTextures.formFitnessTexture, URL.formFitness, Math.PI * 0.15);
+
+    createBillboard(-70, 2.5, -22, billboardTextures.capstoneTexture, URL.capstone, 0);
 
     floydWords(16.2, 1, -20);
-    createTextOnPlane(-70, 0.01, -48, inputText.terpSolutionsText, 20, 40);
-    createTextOnPlane(-42, 0.01, -53, inputText.bagholderBetsText, 20, 40);
-    createTextOnPlane(-14, 0.01, -49, inputText.homeSweetHomeText, 20, 40);
+    createTextOnPlane(-70, 0.01, -48, inputText.crowdDekhoText, 20, 40);
+    createTextOnPlane(-42, 0.01, -53, inputText.cmsText, 20, 40);
+    createTextOnPlane(-14, 0.01, -49, inputText.formFitnessText, 20, 40);
+    createTextOnPlane(-70, 0.01, 0, inputText.capstoneText, 20, 40);
 
     createBox(12, 2, -70, 4, 4, 1, boxTexture.Github, URL.gitHub, 0x000000, true);
 
@@ -881,7 +884,7 @@ Ammo().then((Ammo) => {
     //   true
     // );
 
-    createBox(19, 2, -70, 4, 4, 1, boxTexture.twitter, URL.twitter, 0x0077b5, true);
+    createBox(19, 2, -70, 4, 4, 1, boxTexture.LinkedIn, URL.linkedin, 0x0077b5, true);
     // createBox(
     //   35,
     //   2,
@@ -894,7 +897,7 @@ Ammo().then((Ammo) => {
     //   false
     // );
 
-    createBox(27, 2, -70, 4, 4, 1, boxTexture.mail, 'mailto:arfloyd7@gmail.com', 0x000000, false);
+    createBox(27, 2, -70, 4, 4, 1, boxTexture.mail, URL.email, 0x000000, false);
 
     // createBox(
     //   44,
@@ -909,18 +912,19 @@ Ammo().then((Ammo) => {
     //   false
     // );
 
-    createBox(35, 2, -70, 4, 4, 1, boxTexture.writing, URL.devTo, 0x000000, false);
+    createBox(35, 2, -70, 4, 4, 1, boxTexture.base44, URL.base44, 0x000000, true);
 
     // floatingLabel(3.875, 4.5, -70, 'Twitter');
     floatingLabel(11.875, 4.5, -70, 'Github');
-    floatingLabel(19.125, 4.5, -70, 'Twitter');
+    floatingLabel(19.125, 4.5, -70, 'LinkedIn');
     floatingLabel(26.875, 4.5, -70, 'Email');
     // floatingLabel(35, 6.5, -70, '  Static \nWebsite');
-    floatingLabel(35, 6.5, -70, '   How I \nmade this');
+    floatingLabel(35, 6.5, -70, '  Base44 \nProjects');
     // floatingLabel(44, 6.5, -70, '   How I \nmade this');
 
     // allSkillsSection(-50, 0.025, 20, 40, 40, boxTexture.allSkills);
     allSkillsSection(61, 0.025, 13, 30, 60, inputText.activities);
+    allSkillsSection(-35, 0.025, 22, 30, 40, boxTexture.skills);
 
     //lensflare
     createLensFlare(50, -50, -800, 200, 200, boxTexture.lensFlareMain);
@@ -943,6 +947,7 @@ Ammo().then((Ammo) => {
     // simpleText(-50, 0.01, -5, 'SKILLS', 3);
     simpleText(-42, 0.01, -30, 'PROJECTS', 3);
     simpleText(61, 0.01, -15, 'TIMELINE', 3);
+    simpleText(-35, 0.01, -2, 'SKILLS', 3);
 
     wallOfBricks();
     createTriangle(63, -55);

@@ -10,7 +10,7 @@
     "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
-  "author": "0xFloyd",
+  "author": "Mohamad Rehan Bilal Shaikh",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.3",

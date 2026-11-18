@@ -21,10 +21,10 @@ export function noWebGL() {
   //document.getElementById("preload-overlay").style.display = "none";
   var warning = WEBGL.getWebGLErrorMessage();
   var a = document.createElement('a');
-  var linkText = document.createTextNode('Click here to visit my static site');
+  var linkText = document.createTextNode('Click here to visit my GitHub');
   a.appendChild(linkText);
-  a.title = 'Static Site';
-  a.href = 'https://github.com/0xFloyd/Portfolio_2020';
+  a.title = 'GitHub';
+  a.href = 'https://github.com/Eclipse-2310';
   a.style.margin = '0px auto';
   a.style.textAlign = 'center';
   document.getElementById('WEBGLcontainer').appendChild(warning);
